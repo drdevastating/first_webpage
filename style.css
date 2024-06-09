@@ -61,7 +61,8 @@ a{
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding: 24px;
+    padding-top: 24px;
+    padding-bottom: 24px;
     width: 20%;
     margin-right: 10pc;
     margin-top: 72px;
@@ -70,18 +71,24 @@ a{
 .signup-1{
     background-color: blue;
     color: white;
-    padding: 4px 16px;
+    padding: 4px 24px;
     border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.second{
+    padding-top: 24px;
+    padding-bottom: 72px;
 }
 .second h3{
     text-align: center;
-    font-size:24px ;
+    font-size:30px ;
     font-weight: 900;
 }
 .boxes{
     display: flex;
     justify-content: center;
-    gap: 48px;
+    gap: 72px;
 }
 .empty{
     outline: 2px solid blue;
@@ -92,6 +99,45 @@ a{
 }
 .box p{
     width: 10pc;
+}
+.third{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 48px 32pc;
+}
+.quote{
+    font-size: 36px;
+    color: #1f2937;
+    font-style: light italic;
+}
+.author{
+    font-weight: bold;
+    display: flex;
+    justify-content: end;
+}
+.fourth{
+    display: flex;
+    background-color: #3882F6;
+    color: white;
+    margin: 5pc 14pc;
+    border-radius: 8px;
+    justify-content: space-around;
+    padding: 24px;
+}
+.header-4{
+    font-weight: bold;
+    font-size:large
+}
+.signup-2{
+    outline: 2px solid white;
+    color: white;
+    background-color: #3882F6;
+    padding: 8px 24px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    border-radius: 8px;
+    cursor: pointer;
 }
 .footer{
     text-align: center;
